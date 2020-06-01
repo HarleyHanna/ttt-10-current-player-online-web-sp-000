@@ -8,5 +8,6 @@ def turn_count(board)
     else
       puts "It is now turn number #{turn_number}"
     end
+    return turn_number
   end
 end
