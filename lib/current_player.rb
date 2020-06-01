@@ -5,6 +5,7 @@ def turn_count(board)
   board.each do |turn|
     if turn != " "
       turn_number += 1
+      return turn_number
     end
     return turn_number
   end
