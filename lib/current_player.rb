@@ -3,7 +3,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def turn_count(board)
   turn_number = 0
   board.each do |turn|
-    if board[turn] != " "
+    if turn != " "
       turn_number +=
       puts "test"
     else
