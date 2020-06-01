@@ -4,5 +4,4 @@ def turn_count(board)
   board.each |turn|
     if board[turn] == "X" || if board[turn] == "O"
       turn_count +=
-    end
 end
